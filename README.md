@@ -42,6 +42,17 @@ truffle test
 ## File 2_deploy_contracts.js 
 Edit deployment Tokens options (For example: Total Supply) 
 
+## Deploy Smart Contract
+Check truffle-config.js File for edit settings.
+```powershell-interactive
+truffle deploy --network ropsten
+```
+or you can try with: 
+```powershell-interactive
+truffle deploy --network rinkeby
+```
+
+
 ## Bugs and Issues
 
 Have a bug or an issue with this template? Open a new issue here on GitHub.
