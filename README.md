@@ -1,8 +1,21 @@
-# My DAPP Boilerplate
-## React Bootstrap and Metamask Starter
+# My Starter ERC20 Deployment
+## Ready settings for Rinkeby & Ropsten Testnets
 
 
-React Bootstrap Starter is a starter template for react and bootstrap created by [Eliseoabelcarh]
+Fast ERC20 Deployment Smart Contract to Rinkeby & Ropsten Testnets created by [Eliseoabelcarh]
+
+## create required Files
+Create file .env and add Infura Node Settings:
+```powershell-interactive
+YOUR_PROJECT_ID = "something"
+PUBLIC_KEY = "something"
+PRIVATE_KEY = "something"
+ADDRESS = "something"
+```
+Create file .secret and add your nemonic phrase wallet (in my case 12 words):
+```powershell-interactive
+word1 word2 word3 ... ... word12
+```
 
 
 ## Download and Installation
@@ -21,22 +34,14 @@ npm install
 
 Start editing and customizing according to your needs.
 
-Run locally:
+Run tests locally:
 
 ```powershell-interactive
-npm start
+truffle test
 ```
-
-## Dependencies:
-
-- [React](https://reactjs.org/)
-- [Create React App](https://create-react-app.dev/)
-- [react-bootstrap](https://react-bootstrap.github.io/)
-- [Web3](https://www.npmjs.com/package/web3)
+## File 2_deploy_contracts.js 
+Edit deployment Tokens options (For example: Total Supply) 
 
 ## Bugs and Issues
 
 Have a bug or an issue with this template? Open a new issue here on GitHub.
-
-### Screenshots
-![Screenshot](./src/images/previa1.png)
